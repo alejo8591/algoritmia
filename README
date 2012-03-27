@@ -4,3 +4,5 @@ Lista de algoritmos importantes inicialmente en Python o JS
 maximun.py: Algoritmo para calcular el maximo de un arreglo d enteros
 
 buBy.py: Algoritmo de busqueda binaria basico para buscar en un arreglo
+
+binaryTree.py: Algoritmo de arbol de busqueda binaria
