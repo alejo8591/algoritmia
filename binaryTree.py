@@ -18,10 +18,14 @@ def insert(node, key, val):
 def search(node, key):
     if node is None: raise KeyError             # Hoja Vacia: adiciona un nodo
     if node.key == key: return node.val         # Found key: Return val
-    elif key < node.key:                        # key es menor
-        return search(node.lft, key)            # A la izquierda
-    else:                                      
+    elif key < node.key:
+        print 'izquierda'
+        return search(node.lft, key)            # key es menor
+                                                # A la izquierda
+    else:
+        print 'derecha'
         return search(node.rgt, key)            # A la derecha
+        
 
 class Tree:                                     # Donde nace el algoritmo
     root = None
